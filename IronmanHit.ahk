@@ -30,9 +30,9 @@ Loop
             Sleep 200
         }
         else {
-            Send, {%Key1%}
-            Sleep 100
-            Send, {%Key2%}
+            Send, {%Key1% down}
+            Sleep 10
+            Send, {%Key1% up}
             Send, {F9}
             Send, {F10}
             Send, {F11}
